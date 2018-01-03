@@ -1,0 +1,5 @@
+Dataset: 			Random walk with momentum
+Regularized: 			True (less)
+Stochastic optimization: 	True
+Islands: 			4
+Parallel: 			True

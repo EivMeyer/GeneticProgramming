@@ -1,0 +1,26 @@
+---Best program---
+Fitness score: 0.499046071227
+Island_3
+
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_1177018530145800718407032802513 = 9.369638012942927
+	const_1177018530145800718407032802513 = 11.151106988890136
+	const_1116891152692538704168736279282 = 1.5937772166369832
+	const_1177018530145800718407032802513 = 12.614432491261462
+	const_1177018530145800718407032802513 = 11.7591315383755
+	const_1177018530145800718407032802513 = 12.343411702182854
+	const_1177018530145800718407032802513 = 8.490997219856808
+	const_1177018530145800718407032802513 = 11.55823944208471
+	const_582668617212470811985406632232 = 8.708808574592355
+	const_1177018530145800718407032802513 = 9.892167324573316
+	const_582668617212470811985406632232 = 8.245805211471145
+	const_1177018530145800718407032802513 = 11.594189623155813
+	const_1177018530145800718407032802513 = 11.711937208086303
+	const_522997007999617289562132236369 = 3.986639463116825
+	const_522997007999617289562132236369 = 3.598927189586905
+	const_1177018530145800718407032802513 = 9.969132261867415
+	const_187250112610629706809807334051 = 11.39602373865399
+	const_522997007999617289562132236369 = 3.312402130175974
+	y_hat = sum(np.divide(X[i][0], np.add(np.exp(np.add(np.subtract(np.add(np.exp(np.add(i, np.subtract(np.add(np.subtract(n, np.add(np.add(np.add(np.divide(np.multiply(np.cos(np.add(X[i][0], np.exp(X[i][0]))), np.subtract(np.multiply(np.add(np.exp(const_1177018530145800718407032802513), X[i][0]), X[i][0]), X[i][0])), np.add(np.exp(np.add(np.subtract(X[i][0], X[i][0]), np.exp(n))), np.fabs(np.divide(np.add(X[i][0], X[i][0]), np.add(X[i][0], X[i][0]))))), const_1177018530145800718407032802513), np.sign(np.divide(X[i][0], np.subtract(const_1177018530145800718407032802513, X[i][0])))), np.divide(np.exp(np.add(X[i][0], np.tan(np.add(np.divide(np.sin(np.subtract(X[i][0], X[i][0])), np.add(np.subtract(np.add(np.multiply(np.add(np.exp(i), np.sin(i)), np.cos(X[i][0])), np.exp(np.add(np.divide(X[i][0], const_1116891152692538704168736279282), X[i][0]))), np.exp(np.subtract(np.add(X[i][0], X[i][0]), np.subtract(n, np.multiply(np.sin(np.add(np.sin(np.add(X[i][0], np.add(X[i][0], np.multiply(np.subtract(n, np.exp(np.add(np.divide(np.multiply(np.add(X[i][0], np.exp(np.add(n, i))), np.fmax(i, X[i][0])), np.subtract(np.sign(np.add(np.exp(X[i][0]), X[i][0])), np.add(const_582668617212470811985406632232, np.sign(X[i][0])))), np.add(np.add(const_522997007999617289562132236369, np.sin(np.subtract(np.add(np.exp(np.divide(X[i][0], X[i][0])), np.divide(X[i][0], np.add(np.exp(np.add(np.subtract(np.add(X[i][0], np.multiply(np.divide(np.subtract(X[i][0], X[i][0]), np.exp(i)), np.mod(np.exp(X[i][0]), np.subtract(np.subtract(np.cos(np.subtract(np.divide(X[i][0], X[i][0]), np.tan(np.subtract(X[i][0], X[i][0])))), np.add(np.add(X[i][0], n), np.subtract(const_187250112610629706809807334051, n))), np.subtract(np.multiply(np.multiply(X[i][0], X[i][0]), np.exp(np.subtract(X[i][0], const_187250112610629706809807334051))), np.add(X[i][0], np.sin(np.add(X[i][0], X[i][0])))))))), X[i][0]), np.tan(np.add(n, np.subtract(X[i][0], X[i][0]))))), const_1177018530145800718407032802513))), np.less_equal(np.add(X[i][0], X[i][0]), np.sin(np.subtract(np.add(np.add(np.add(X[i][0], X[i][0]), const_522997007999617289562132236369), np.subtract(X[i][0], X[i][0])), np.less_equal(np.add(X[i][0], X[i][0]), X[i][0]))))))), n)))), np.add(np.exp(X[i][0]), X[i][0]))))), X[i][0])), np.divide(X[i][0], n)))))), const_1116891152692538704168736279282)), np.cos(np.add(np.multiply(i, n), X[i][0])))))), n))), np.add(X[i][0], np.add(np.subtract(np.add(X[i][0], np.multiply(np.cos(X[i][0]), X[i][0])), np.subtract(np.subtract(X[i][0], X[i][0]), np.add(X[i][0], np.sin(X[i][0])))), np.subtract(i, np.add(X[i][0], np.tan(n)))))), np.add(X[i][0], np.subtract(X[i][0], np.multiply(np.add(np.exp(np.add(X[i][0], np.add(X[i][0], np.exp(X[i][0])))), np.add(np.add(np.exp(X[i][0]), X[i][0]), np.add(X[i][0], np.exp(i)))), np.subtract(np.cos(const_1177018530145800718407032802513), np.exp(np.divide(np.add(X[i][0], np.cos(X[i][0])), X[i][0]))))))))), n), np.add(i, np.floor(n))), np.add(np.add(np.divide(X[i][0], np.add(np.exp(np.add(np.tan(np.fmin(np.add(X[i][0], np.subtract(np.add(X[i][0], X[i][0]), np.divide(X[i][0], np.exp(n)))), X[i][0])), np.tan(np.add(n, np.add(const_582668617212470811985406632232, np.sign(X[i][0])))))), const_1177018530145800718407032802513)), np.cos(const_1177018530145800718407032802513)), const_1177018530145800718407032802513))), const_1177018530145800718407032802513)) for i in range(n))
+	return y_hat

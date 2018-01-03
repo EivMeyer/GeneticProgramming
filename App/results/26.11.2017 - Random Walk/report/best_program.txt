@@ -1,0 +1,8 @@
+---Best program---
+Fitness score: 0.496327572125
+Island_3
+
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat

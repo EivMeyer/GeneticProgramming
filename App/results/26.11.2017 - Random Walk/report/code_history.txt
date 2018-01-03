@@ -1,0 +1,530 @@
+-------------------- Generation 1 --------------------
+Fitness score (Training): 0.443024371412
+Fitness score (Validation): 0.44362833811
+Island: Island_4
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(X[i][0], n) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 2 --------------------
+Fitness score (Training): 0.443024371412
+Fitness score (Validation): 0.44362833811
+Island: Island_4
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(X[i][0], n) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 3 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 4 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 5 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 6 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 7 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 8 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 9 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 10 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 11 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 12 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 13 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 14 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 15 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 16 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 17 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 18 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 19 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 20 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_1
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 21 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_1
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 22 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_1
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 23 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_1
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 24 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_1
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 25 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_1
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 26 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_1
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 27 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_1
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 28 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_1
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 29 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_1
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 30 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_1
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 31 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_1
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 32 --------------------
+Fitness score (Training): 0.464258494012
+Fitness score (Validation): 0.46167068866
+Island: Island_1
+np.seterr(all = "ignore")
+def predict(X, n):
+	const_687983895422800188379610145196 = 10.779790749193573
+	y_hat = sum(np.divide(X[i][0], const_687983895422800188379610145196) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 33 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 34 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 35 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 36 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 37 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 38 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 39 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 40 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 41 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 42 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 43 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_2
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 44 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_2
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 45 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_2
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 46 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_2
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 47 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_2
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 48 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_2
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 49 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_2
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
+-------------------- Generation 50 --------------------
+Fitness score (Training): 0.489043354557
+Fitness score (Validation): 0.488333967478
+Island: Island_3
+np.seterr(all = "ignore")
+def predict(X, n):
+	y_hat = sum(np.divide(np.add(X[i][0], X[i][0]), np.exp(np.subtract(n, i))) for i in range(n))
+	return y_hat
+
+
