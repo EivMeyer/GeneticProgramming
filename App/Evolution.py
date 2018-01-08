@@ -277,6 +277,31 @@ class Evolution():
 		fitness = 1/(1 + np.exp(-z))
 		return fitness
 
+	def update_fitness(self, program, dataset, use_batch = True):
+		assert(dataset in ['TRAINING', 'VALIDATION'])
+		if (dataset == 'TRAINING'):
+			mse 			= program.get_mse(self.X_train, self.y_train, use_batch)
+			r_squared	   	= 1 - mse / self.var_y_train
+		if (dataset == 'VALIDATION'):
+			mse 			= program.get_mse(self.X_val, self.y_val, use_batch)
+			r_squared	   	= 1 - mse / self.var_y_val
+		tree_size 		= program.loop_tree.rec_get_node_count()
+		tree_height 	= program.loop_tree.rec_get_height()
+		correctness    = 1 if mse == 0 else 0
+		z = self.config.FITNESS_WEIGHTS['intercept'] 							+ \
+			self.config.FITNESS_WEIGHTS['r_squared'] 		* r_squared 		+ \
+		    self.config.FITNESS_WEIGHTS['tree_size'] 		* tree_size 		+ \
+		    self.config.FITNESS_WEIGHTS['tree_height'] 		* tree_height   	+ \
+		    self.config.FITNESS_WEIGHTS['correctness'] 		* correctness
+		fitness = 1/(1 + np.exp(-z))
+		program.mse 		= mse
+		program.r_squared 	= r_squared
+		program.tree_size 	= tree_size
+		program.tree_height = tree_height
+		program.correctness = correctness
+		program.z 			= z
+		program.fitness 	= fitness
+
 	def on_islands_changed(self, res):
 		self.islands = res
 
@@ -287,7 +312,7 @@ class Evolution():
 				sys.stdout.write('Creating program ' + str(i + 1) + ' / ' + str(self.config.POPULATION_SIZE) + '...\r')
 				sys.stdout.flush()
 				program = create_random_program(self.config)
-				program.fitness = self.get_fitness(program, 'TRAINING')
+				self.update_fitness(program, 'TRAINING')
 				if (np.isfinite(program.fitness)):
 					successive_standstills = 0
 					island.population.append(program)
@@ -324,7 +349,7 @@ class Evolution():
 
 				for i in range(self.config.NUM_MATING_ITERATIONS):
 					child = self.mate(mother, father)
-					child.fitness = self.get_fitness(child, 'TRAINING')
+					self.update_fitness(child, 'TRAINING')
 					if (np.isfinite(child.fitness) and child.fitness > island.population[int(self.config.POPULATION_SURVIVAL_RATE * len(island.population))].fitness):
 						surviving_children_counter += 1
 						childs.append(child)
@@ -378,7 +403,7 @@ class Evolution():
 
 				mother = sample_categorical_distribution(island.distribution)
 				mutant = self.mutate(mother)
-				mutant.fitness = self.get_fitness(mutant, 'TRAINING')
+				self.update_fitness(mutant, 'TRAINING')
 
 				if (np.isfinite(mutant.fitness) and mutant.fitness > island.population[int(self.config.POPULATION_SURVIVAL_RATE * len(island.population))].fitness):
 					surviving_mutants_counter += 1
@@ -402,7 +427,7 @@ class Evolution():
 				sys.stdout.flush()
 
 				alien = create_random_program(self.config)
-				alien.fitness = self.get_fitness(alien, 'TRAINING')
+				self.update_fitness(alien, 'TRAINING')
 				if (np.isfinite(alien.fitness) and alien.fitness > island.population[int(self.config.POPULATION_SURVIVAL_RATE * len(island.population))].fitness):
 					surviving_aliens_counter += 1
 					aliens.append(alien)
@@ -485,16 +510,19 @@ class Evolution():
 	def update_history(self):
 		best_program = None
 		best_fitness = 0
+		best_r_squared = None
 		best_island = None
 		for island in self.islands:
 			if (island.population[0].fitness > best_fitness):
 				best_program = island.population[0]
 				best_fitness = island.population[0].fitness
+				best_r_squared = island.population[0].r_squared
 				best_island = island.id
 
 		with open(os.path.normpath(self.report_path + '/best_program.txt'), 'w') as file:
 			file.write('---Best program---\n')
 			file.write('Fitness: ' + str(best_fitness) + '\n')
+			file.write('R Squared: ' + str (best_r_squared) + '\n')
 			file.write(best_island + '\n\n')
 			file.write(str(best_program))
 

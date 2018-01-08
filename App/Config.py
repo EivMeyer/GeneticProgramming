@@ -65,14 +65,14 @@ class Configuration:
 			'intercept': 			-1,
 			'correctness': 			3,
 			'r_squared': 			1,
-			'tree_size': 			-0.000001,
-			'tree_height': 			-0.00001
+			'tree_size': 			-0.00001,
+			'tree_height': 			-0.0001
 		}
 
 		# Evolution parameters
 		self.BATCH_SIZE 				= 0.1
 		self.OPTIM_ITER 				= 50
-		self.POPULATION_SIZE 			= 2500
+		self.POPULATION_SIZE 			= 2000
 		self.POPULATION_SURVIVAL_RATE 	= 0.5
 		self.NUM_ISLANDS 				= 4
 		self.MIGRATION_RATE 			= 0.02 * (0 if self.NUM_ISLANDS <= 1 else 1)

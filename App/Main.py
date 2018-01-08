@@ -37,7 +37,8 @@ if (__name__ == '__main__'):
 	reset_storage(root)
 
 	#X_train, y_train, X_val, y_val = Datasets.load(name = 'Random_Walk_With_Mommentum', config = config, root = root)
-	X_train, y_train, X_val, y_val = Datasets.load(name = 'Bitcoin_USD', config = config, root = root)
+	#X_train, y_train, X_val, y_val = Datasets.load(name = 'Bitcoin_USD', config = config, root = root)
+	X_train, y_train, X_val, y_val = Datasets.load(name = 'North_Carolina_Weather', config = config, root = root)
 
 	if (args.should_test):
 		print(' & '.join(['{:<.2f}'.format(x[0]) for x in X_train[0].tolist()]))

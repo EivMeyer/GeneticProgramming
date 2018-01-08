@@ -6,6 +6,8 @@ from datetime import datetime
 from sklearn.model_selection import train_test_split
 
 def load(name, config, root):
+	assert (name in {'Random_Walk_With_Mommentum', 'North_Carolina_Weather', 'Bitcoin_USD'})
+	
 	if (name == 'Random_Walk_With_Mommentum'):
 		X_train = []
 		y_train = []
